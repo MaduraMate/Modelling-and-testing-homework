@@ -1,0 +1,985 @@
+{
+    "models": [
+        {
+            "name": "HomeWork",
+            "id": "db599fc8-a632-4563-bfea-f6e17804e9c5",
+            "hasReset": false,
+            "hasReliableReset": false,
+            "modelGenerationMethod": "CUSTOM",
+            "generator": "random(edge_coverage(100))",
+            "vertices": [
+                {
+                    "id": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "name": "v_NotSignedInMainPage",
+                    "properties": {
+                        "x": 294.8624547833802,
+                        "y": 285.021990412539
+                    }
+                },
+                {
+                    "id": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "name": "v_SignedInResultPage",
+                    "properties": {
+                        "x": 1103.0491797782052,
+                        "y": -388.7876840277984
+                    }
+                },
+                {
+                    "id": "4e013d07-caeb-4a1e-8393-93d76704cb6f",
+                    "name": "v_SignInPage",
+                    "properties": {
+                        "x": -328.3340145853119,
+                        "y": 161.18371509888997
+                    }
+                },
+                {
+                    "id": "89b4e704-5b3c-4c3f-8367-f4ca1f4cbc9a",
+                    "name": "v_AwaitLoginResponse",
+                    "properties": {
+                        "x": -139.634007446266,
+                        "y": 498.963827024118
+                    }
+                },
+                {
+                    "id": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "name": "v_AccountPage",
+                    "properties": {
+                        "x": 594.7933935998634,
+                        "y": 355.5964491717433
+                    }
+                },
+                {
+                    "id": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "name": "v_SignedInMainPage",
+                    "properties": {
+                        "x": 1252.4018924814889,
+                        "y": 345.54048985723485
+                    }
+                },
+                {
+                    "id": "725a32a1-b2c1-442a-b248-f7257864cb3c",
+                    "name": "v_ChangeAccountDataPage",
+                    "properties": {
+                        "x": 1459.9296673428724,
+                        "y": 1044.4305735371777
+                    }
+                },
+                {
+                    "id": "459670b0-bc2b-4ef0-851f-72a2f13011fa",
+                    "name": "v_AwaitChangeAccountDataResponse",
+                    "properties": {
+                        "x": 1850.210072580766,
+                        "y": 504.9730613013001
+                    }
+                },
+                {
+                    "id": "b1d938a1-3219-4f86-8f5e-5a4390c899e5",
+                    "name": "v_ChangePasswordPage",
+                    "properties": {
+                        "x": 1827.078715399506,
+                        "y": 1505.9958755257526
+                    }
+                },
+                {
+                    "id": "dcb3f379-a0f9-41b7-a5d0-7f02ccb330e6",
+                    "name": "v_AwaitChangePasswordResponse",
+                    "properties": {
+                        "x": 686.63977834355,
+                        "y": 1372.7311698662177
+                    }
+                },
+                {
+                    "id": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "name": "v_AddressBookPage",
+                    "properties": {
+                        "x": 79.34367189330581,
+                        "y": 815.9434258799412
+                    }
+                },
+                {
+                    "id": "62660b5f-ad3a-4c24-b48e-d30725d001bc",
+                    "name": "v_CreateNewAddressPage",
+                    "properties": {
+                        "x": 297.666440488702,
+                        "y": 1400.1137284451564
+                    }
+                },
+                {
+                    "id": "fabfe51c-1498-40ee-b175-435eb1f0be23",
+                    "name": "v_AwaitCreateAddressResponse",
+                    "properties": {
+                        "x": -455.7525767718544,
+                        "y": 1003.4498981088424
+                    }
+                },
+                {
+                    "id": "afd6d152-7576-4a68-91c6-558c485df0bc",
+                    "name": "v_AwaitDeleteAddressResponse",
+                    "properties": {
+                        "x": -491.4210506129183,
+                        "y": 559.7797888966458
+                    }
+                },
+                {
+                    "id": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "name": "v_NotSignedInResultPage",
+                    "properties": {
+                        "x": 422.8768484138107,
+                        "y": -298.4824984556404
+                    }
+                },
+                {
+                    "id": "e145a57b-351f-439a-9919-b2436d7b654d",
+                    "name": "v_SignedInItemDialogPage",
+                    "properties": {
+                        "x": 1398.40268859123,
+                        "y": -45.99335587946823
+                    }
+                },
+                {
+                    "id": "ce44ab73-51f3-4964-81b7-f31e62d52cff",
+                    "name": "v_SignedInItemViewPage",
+                    "properties": {
+                        "x": 1817.016268687723,
+                        "y": -63.80175098195147
+                    }
+                },
+                {
+                    "id": "ea561919-56a0-458a-9f3a-1d640c5ccb72",
+                    "name": "v_ItemInDialogPage",
+                    "properties": {
+                        "x": -160.49802665346318,
+                        "y": -62.685172668609748
+                    }
+                },
+                {
+                    "id": "fa5f646f-0b34-428f-a7fb-35c66d152ac8",
+                    "name": "v_ItemInViewPage",
+                    "properties": {
+                        "x": -215.3167731036192,
+                        "y": -614.9122530763265
+                    }
+                },
+                {
+                    "id": "e1549b2b-5242-4fec-afa8-a346319f86f5",
+                    "name": "v_Cart",
+                    "properties": {
+                        "x": 1076.4848208582776,
+                        "y": -589.7753199703993
+                    }
+                },
+                {
+                    "id": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "name": "v_SignedInCart",
+                    "properties": {
+                        "x": 2094.485693646997,
+                        "y": 230.873004133661
+                    }
+                }
+            ],
+            "edges": [
+                {
+                    "id": "f6c54553-fb7a-4e22-bc59-4750092f4208",
+                    "name": "e_clickOnOpenSignInPageButton",
+                    "sourceVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "targetVertexId": "4e013d07-caeb-4a1e-8393-93d76704cb6f",
+                    "input": "open sign in page",
+                    "output": "Sign in page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "0c9771fa-b810-41e6-90cd-1197c1428269",
+                    "name": "e_openCart",
+                    "sourceVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "targetVertexId": "e1549b2b-5242-4fec-afa8-a346319f86f5",
+                    "input": "click on open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "1da831af-79f6-42bf-bb2b-e835fb831e69",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "targetVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "input": "open result from menu",
+                    "output": "not signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "3a01fcbe-233c-49ee-af80-964d5e146ea7",
+                    "name": "e_signOut",
+                    "sourceVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click sign out",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "2677e127-ec65-4230-8dde-2437f2252155",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "targetVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "input": "click go to main page",
+                    "output": "signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "35881532-f57a-4338-9d73-4ac76d4f4c91",
+                    "name": "e_openItemInDialogPage",
+                    "sourceVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "targetVertexId": "e145a57b-351f-439a-9919-b2436d7b654d",
+                    "input": "open item in dialog",
+                    "output": "item dialog page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "0e802b5b-7711-4d28-a99e-96209e6ccd16",
+                    "name": "e_goToItemViewPage",
+                    "sourceVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "targetVertexId": "ce44ab73-51f3-4964-81b7-f31e62d52cff",
+                    "input": "click on item view page",
+                    "output": "item view page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "ea363115-60e8-4a1a-91f9-e77efae2856b",
+                    "name": "e_openCart",
+                    "sourceVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "targetVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "input": "open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "4622375c-a2a2-4575-b7b2-ea8522ebc000",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "open result from menu",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "ca88d9b8-5c7a-4a81-8680-c7a101b0a481",
+                    "name": "e_clickOnSignInButton",
+                    "sourceVertexId": "4e013d07-caeb-4a1e-8393-93d76704cb6f",
+                    "targetVertexId": "89b4e704-5b3c-4c3f-8367-f4ca1f4cbc9a",
+                    "input": "USER.init",
+                    "output": "login",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "97674f60-13f7-4252-b2ad-5cf24212b198",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "4e013d07-caeb-4a1e-8393-93d76704cb6f",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click go to main page",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "a620c5b9-6181-40df-b47d-260ec2c73280",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "4e013d07-caeb-4a1e-8393-93d76704cb6f",
+                    "targetVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "input": "open result from menu",
+                    "output": "not signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "d5d9ec67-59fa-4c16-9765-f53b7eeb882d",
+                    "name": "e_successfullLogin",
+                    "sourceVertexId": "89b4e704-5b3c-4c3f-8367-f4ca1f4cbc9a",
+                    "targetVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "input": "200 ok",
+                    "output": "USER.done",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "df445642-f622-479a-8ecd-e8b6f888aec4",
+                    "name": "e_failedLogin",
+                    "sourceVertexId": "89b4e704-5b3c-4c3f-8367-f4ca1f4cbc9a",
+                    "targetVertexId": "4e013d07-caeb-4a1e-8393-93d76704cb6f",
+                    "input": "400",
+                    "output": "USER.notdone",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "903bb4df-a283-4769-b0b3-6fabb1213db5",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "open result from menu",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "948db10e-e5f7-4e84-80b3-a954b8c2882b",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "targetVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "input": "click go to main page",
+                    "output": "signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "2aa42fc0-2943-4671-9ca9-38be569b355c",
+                    "name": "e_clickOnGoToChangeAccountDataPage",
+                    "sourceVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "targetVertexId": "725a32a1-b2c1-442a-b248-f7257864cb3c",
+                    "input": "click on change account data page",
+                    "output": " change account data page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "bbc37828-bd2f-44ce-95d1-322a678831d5",
+                    "name": "e_clickOnGoToChangePasswordPage",
+                    "sourceVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "targetVertexId": "b1d938a1-3219-4f86-8f5e-5a4390c899e5",
+                    "input": "click on change password page",
+                    "output": "change password page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "ef29b2dd-0c77-4afe-a5f3-d534cad07e90",
+                    "name": "e_goToAddressBookPage",
+                    "sourceVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "targetVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "input": "click on address book",
+                    "output": "address book page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "7bb44ed6-bb90-47d9-af84-4c778616045b",
+                    "name": "e_signOut",
+                    "sourceVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click sign out",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "b1caf2af-c70c-48ed-a5ea-b36eb30ce9d8",
+                    "name": "e_openCart",
+                    "sourceVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "targetVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "input": "open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "f4ad5b3e-ad95-493e-bc9a-d6ba74778ab4",
+                    "name": "e_clickOnMyAccountButton",
+                    "sourceVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "targetVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "input": "click to my account",
+                    "output": "my account page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "1f2b49d1-1e35-467e-87c2-d7442c373180",
+                    "name": "e_signOut",
+                    "sourceVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click sign out",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "8c0d9829-2855-40ff-ae84-06c24fbd0be2",
+                    "name": "e_openCart",
+                    "sourceVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "targetVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "input": "open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "b54f7f8d-fb4e-4e65-8657-9dec5cba773d",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "open result from menu",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "fa15556f-9fa5-4e70-8d7c-12603fe9b235",
+                    "name": "e_clickOnBack",
+                    "sourceVertexId": "725a32a1-b2c1-442a-b248-f7257864cb3c",
+                    "targetVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "input": "click back",
+                    "output": "account page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "b8a985d6-cc33-40f2-85d7-9f411e0a266f",
+                    "name": "e_clickOnChangeAccountData",
+                    "sourceVertexId": "725a32a1-b2c1-442a-b248-f7257864cb3c",
+                    "targetVertexId": "459670b0-bc2b-4ef0-851f-72a2f13011fa",
+                    "input": "cick on change account data",
+                    "output": "update",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "6d609b8d-7091-42b7-bc35-8b6ebf0f52b1",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "725a32a1-b2c1-442a-b248-f7257864cb3c",
+                    "targetVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "input": "click go to main page",
+                    "output": "signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "82b8c851-84ee-46d9-9b1e-d93914582443",
+                    "name": "e_signOut",
+                    "sourceVertexId": "725a32a1-b2c1-442a-b248-f7257864cb3c",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click sign out",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "15ef08d8-8679-4c6a-875e-b1133e96796e",
+                    "name": "e_openCart",
+                    "sourceVertexId": "725a32a1-b2c1-442a-b248-f7257864cb3c",
+                    "targetVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "input": "open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "d0e2bf25-0082-4015-8ebd-9d67a5ffd2e6",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "725a32a1-b2c1-442a-b248-f7257864cb3c",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "open result from menu",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "231e45db-df16-4d86-bcdc-ce14c7ed26f4",
+                    "name": "e_failedAccountDataChange",
+                    "sourceVertexId": "459670b0-bc2b-4ef0-851f-72a2f13011fa",
+                    "targetVertexId": "725a32a1-b2c1-442a-b248-f7257864cb3c",
+                    "input": "400",
+                    "output": "change data failed",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "969ac7f7-5353-4895-94b2-1fd2a6106ebe",
+                    "name": "e_successfulAccountDataChange",
+                    "sourceVertexId": "459670b0-bc2b-4ef0-851f-72a2f13011fa",
+                    "targetVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "input": "200 ok",
+                    "output": "successful update account data",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "12503e82-a1a9-4b06-9e22-466cd0a64555",
+                    "name": "e_clickOnBack",
+                    "sourceVertexId": "b1d938a1-3219-4f86-8f5e-5a4390c899e5",
+                    "targetVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "input": "click back",
+                    "output": "account page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "76639655-306a-4a98-8a48-39966a36f989",
+                    "name": "e_clickOnChangePasswordButton",
+                    "sourceVertexId": "b1d938a1-3219-4f86-8f5e-5a4390c899e5",
+                    "targetVertexId": "dcb3f379-a0f9-41b7-a5d0-7f02ccb330e6",
+                    "input": "click on change password",
+                    "output": "update",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "c9493375-06e6-4963-90bb-35f5d98dbb98",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "b1d938a1-3219-4f86-8f5e-5a4390c899e5",
+                    "targetVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "input": "click go to main page",
+                    "output": "signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "50883d5f-7bd2-4a3e-989e-6e625adfb054",
+                    "name": "e_signOut",
+                    "sourceVertexId": "b1d938a1-3219-4f86-8f5e-5a4390c899e5",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click sign out",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "04ba4b0b-697f-4fd9-b6e3-0784e5370bd5",
+                    "name": "e_openCart",
+                    "sourceVertexId": "b1d938a1-3219-4f86-8f5e-5a4390c899e5",
+                    "targetVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "input": "open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "ebc62001-7595-4c91-8b00-0403cac0a40d",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "b1d938a1-3219-4f86-8f5e-5a4390c899e5",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "open result from menu",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "005cdce9-8f7f-4047-b6f5-9c3a77e0126a",
+                    "name": "e_failedPasswordChange",
+                    "sourceVertexId": "dcb3f379-a0f9-41b7-a5d0-7f02ccb330e6",
+                    "targetVertexId": "b1d938a1-3219-4f86-8f5e-5a4390c899e5",
+                    "input": "400",
+                    "output": "password change failed",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "66af0632-9d98-4a50-b1d2-753b35d03096",
+                    "name": "e_successfulPasswordChange",
+                    "sourceVertexId": "dcb3f379-a0f9-41b7-a5d0-7f02ccb330e6",
+                    "targetVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "input": "200 ok",
+                    "output": "successful password change",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "7333174b-4ebb-4fa7-a40c-14a0ee8c4e0b",
+                    "name": "e_goToCreateAddressPage",
+                    "sourceVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "targetVertexId": "62660b5f-ad3a-4c24-b48e-d30725d001bc",
+                    "input": "click on create new address",
+                    "output": "create address form",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "f88b91b4-b049-47f2-ae98-d46d7d8153d6",
+                    "name": "e_clickOnDeleteAddress",
+                    "sourceVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "targetVertexId": "afd6d152-7576-4a68-91c6-558c485df0bc",
+                    "input": "click on delete",
+                    "output": "delete",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "dc13bfde-63a6-4ed5-bd9d-157bf8874df6",
+                    "name": "e_clickOnBack",
+                    "sourceVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "targetVertexId": "b0931704-fc33-4d2d-ba9e-a2014249f885",
+                    "input": "click back",
+                    "output": "account page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "574d2773-7ffc-4fd9-b08e-6a86c28e13ed",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "targetVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "input": "click go to main page",
+                    "output": "signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "a0ca7074-d0fc-4d38-b3a6-928ac159717a",
+                    "name": "e_signOut",
+                    "sourceVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click sign out",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "16e755db-b80b-4365-bafd-b306eb880fe1",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "open result from menu",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "3d1c7599-37c5-4a95-a7e3-59203cabd36f",
+                    "name": "e_clickOnCreateAddressButton",
+                    "sourceVertexId": "62660b5f-ad3a-4c24-b48e-d30725d001bc",
+                    "targetVertexId": "fabfe51c-1498-40ee-b175-435eb1f0be23",
+                    "input": "click on create",
+                    "output": "create",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "2c59706b-4b1f-43e7-86b2-63b7a25acd38",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "62660b5f-ad3a-4c24-b48e-d30725d001bc",
+                    "targetVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "input": "click go to main page",
+                    "output": "signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "49152a8b-e5cd-4137-923b-64b9d0383862",
+                    "name": "e_signOut",
+                    "sourceVertexId": "62660b5f-ad3a-4c24-b48e-d30725d001bc",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click sign out",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "d2df35c1-1eb2-42d3-8e0d-f7964e3d2d3f",
+                    "name": "e_openCart",
+                    "sourceVertexId": "62660b5f-ad3a-4c24-b48e-d30725d001bc",
+                    "targetVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "input": "open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "a94cad2d-7979-4236-82eb-f147d6ad17cf",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "62660b5f-ad3a-4c24-b48e-d30725d001bc",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "open result from menu",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "6e82f71c-c416-43cb-bcf0-097ce15b6513",
+                    "name": "e_failedAddressCreate",
+                    "sourceVertexId": "fabfe51c-1498-40ee-b175-435eb1f0be23",
+                    "targetVertexId": "62660b5f-ad3a-4c24-b48e-d30725d001bc",
+                    "input": "400",
+                    "output": "create address failed",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "75b1cbfd-8839-4f58-bfe3-89a6165f90e9",
+                    "name": "e_successfulAddressCreate",
+                    "sourceVertexId": "fabfe51c-1498-40ee-b175-435eb1f0be23",
+                    "targetVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "input": "200 ok",
+                    "output": "successful create",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "dc2a1db2-7820-403a-a656-d2068526b4ec",
+                    "name": "e_failedDeleteAddress",
+                    "sourceVertexId": "afd6d152-7576-4a68-91c6-558c485df0bc",
+                    "targetVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "input": "400",
+                    "output": "failed delete",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "5afbfb15-6abc-4b2c-ae4b-a17acba53af7",
+                    "name": "e_successfulDeleteAddress",
+                    "sourceVertexId": "afd6d152-7576-4a68-91c6-558c485df0bc",
+                    "targetVertexId": "0999402a-b595-463b-88c8-15e3a8554b32",
+                    "input": "200 ok",
+                    "output": "successful delete",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "896d04ce-3cc9-4794-95dd-e37a2bd9f7cf",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click go to main page",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "8bbf7b75-cef8-47dc-bf46-67b8485a8ff1",
+                    "name": "e_openItemInDialogPage",
+                    "sourceVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "targetVertexId": "ea561919-56a0-458a-9f3a-1d640c5ccb72",
+                    "input": "open item in dialog",
+                    "output": "item dialog page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "c009e7fd-bf14-4661-963e-a4f83f49932c",
+                    "name": "e_goToItemViewPage",
+                    "sourceVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "targetVertexId": "fa5f646f-0b34-428f-a7fb-35c66d152ac8",
+                    "input": "click on item view page",
+                    "output": "item view page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "ebc24ac1-f809-40db-9a06-2491c9b0a91c",
+                    "name": "e_openCart",
+                    "sourceVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "targetVertexId": "e1549b2b-5242-4fec-afa8-a346319f86f5",
+                    "input": "click on open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "d629fadc-a366-4a57-aa1e-773497b50795",
+                    "name": "e_clickOnOpenSignInPageButton",
+                    "sourceVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "targetVertexId": "4e013d07-caeb-4a1e-8393-93d76704cb6f",
+                    "input": "open sign in page",
+                    "output": "Sign in page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "a2c62d07-6e00-48ab-9860-b1361de862e9",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "targetVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "input": "open result from menu",
+                    "output": "not signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "62bb96af-f2c3-463b-a242-51bca0155f4e",
+                    "name": "e_closeDialog",
+                    "sourceVertexId": "e145a57b-351f-439a-9919-b2436d7b654d",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "click close dialog",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "f6b7460a-1117-4dde-8104-a282d5d48e57",
+                    "name": "e_goToItemViewPage",
+                    "sourceVertexId": "e145a57b-351f-439a-9919-b2436d7b654d",
+                    "targetVertexId": "ce44ab73-51f3-4964-81b7-f31e62d52cff",
+                    "input": "click on item view page",
+                    "output": "item view page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "728c1712-e928-4c48-b259-f5b23aa8b10f",
+                    "name": "e_openCart",
+                    "sourceVertexId": "ce44ab73-51f3-4964-81b7-f31e62d52cff",
+                    "targetVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "input": "open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "a8bb1847-9ea2-489c-8ae7-b099306cf819",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "ce44ab73-51f3-4964-81b7-f31e62d52cff",
+                    "targetVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "input": "click go to main page",
+                    "output": "signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "0b094d60-a9f8-44ac-872d-5e04119df16d",
+                    "name": "e_signOut",
+                    "sourceVertexId": "ce44ab73-51f3-4964-81b7-f31e62d52cff",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click sign out",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "4dfb3889-ce2f-463c-a823-80bbe34b3dcd",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "ce44ab73-51f3-4964-81b7-f31e62d52cff",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "open result from menu",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "053f50a3-c9df-4ab0-81bc-dfb2f10d7d0b",
+                    "name": "e_closeDialog",
+                    "sourceVertexId": "ea561919-56a0-458a-9f3a-1d640c5ccb72",
+                    "targetVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "input": "click close dialog",
+                    "output": "not signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "f2a94500-e89d-43ec-b057-4bed0aadbb13",
+                    "name": "e_goToItemViewPage",
+                    "sourceVertexId": "ea561919-56a0-458a-9f3a-1d640c5ccb72",
+                    "targetVertexId": "fa5f646f-0b34-428f-a7fb-35c66d152ac8",
+                    "input": "click on item view page",
+                    "output": "item view page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "25d73ecb-7195-4119-b8d7-42301575a675",
+                    "name": "e_openCart",
+                    "sourceVertexId": "fa5f646f-0b34-428f-a7fb-35c66d152ac8",
+                    "targetVertexId": "e1549b2b-5242-4fec-afa8-a346319f86f5",
+                    "input": "click on open cart",
+                    "output": "cart",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "eabdd0b1-3e42-4e8e-83d8-bed2c4503312",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "fa5f646f-0b34-428f-a7fb-35c66d152ac8",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click go to main page",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "21fc94d9-1889-4375-9de8-128aefb7231c",
+                    "name": "e_clickOnOpenSignInPageButton",
+                    "sourceVertexId": "fa5f646f-0b34-428f-a7fb-35c66d152ac8",
+                    "targetVertexId": "4e013d07-caeb-4a1e-8393-93d76704cb6f",
+                    "input": "open sign in page",
+                    "output": "Sign in page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "1ed6e1bb-6794-40a9-bafa-4c3e27fe590e",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "fa5f646f-0b34-428f-a7fb-35c66d152ac8",
+                    "targetVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "input": "open result from menu",
+                    "output": "not signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "cef46e4e-1c0e-4816-80c6-4e260042ec12",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "e1549b2b-5242-4fec-afa8-a346319f86f5",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click go to main page",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "beb3b94e-22aa-4dcd-b092-162d93d47761",
+                    "name": "e_clickOnOpenSignInPageButton",
+                    "sourceVertexId": "e1549b2b-5242-4fec-afa8-a346319f86f5",
+                    "targetVertexId": "4e013d07-caeb-4a1e-8393-93d76704cb6f",
+                    "input": "open sign in page",
+                    "output": "Sign in page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "d4f3e647-9a8c-4c50-b9f7-0ba9edc04d86",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "e1549b2b-5242-4fec-afa8-a346319f86f5",
+                    "targetVertexId": "7c74cbec-abdd-43a4-b4cd-b9b9d625cb2f",
+                    "input": "open result from menu",
+                    "output": "not signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "99f5e483-0cb4-4e31-9c70-14e5b546b056",
+                    "name": "e_goToMainPage",
+                    "sourceVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "targetVertexId": "c967b6c0-0b8c-4b3b-a5b0-aeb7ce157be7",
+                    "input": "click go to main page",
+                    "output": "signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "8040bca0-d41a-4644-848d-aedfc793e5eb",
+                    "name": "e_signOut",
+                    "sourceVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "targetVertexId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18",
+                    "input": "click sign out",
+                    "output": "not signed in main page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "c59c81c0-a06c-4ccf-88b1-63901cc8b369",
+                    "name": "e_openResultsFromMenu",
+                    "sourceVertexId": "e47a52b8-a2e4-4e52-b3d1-8036545b823d",
+                    "targetVertexId": "f072d328-e6d1-4f68-af8b-c563e01f3cb1",
+                    "input": "open result from menu",
+                    "output": "signed in result page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                }
+            ],
+            "startElementId": "b88a735b-0ce5-4bee-8a8b-3fa751af7c18"
+        }
+    ]
+}
